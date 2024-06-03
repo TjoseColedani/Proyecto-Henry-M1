@@ -1,0 +1,144 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.about {
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about h2:hover {
+    color: #4285f4;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.misTecnologias:hover {
+    color: #4285f4;
+    cursor: pointer;
+}
+
+article {
+    margin-top: 20px; /* Ajusta el valor según tus preferencias */
+}
+
+article ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
+
+article li {
+    text-align: center;
+    flex: 1;
+    max-width: 150px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 10px;
+    transition: opacity 0.3s, transform 0.3s; /* Agregamos una transición a la opacidad y al tamaño */
+}
+
+article li:hover {
+    opacity: 1; /* Al pasar el cursor, la opacidad es del 100% */
+    transform: scale(1.1); /* Al pasar el cursor, aumentamos el tamaño en un 10% */
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    opacity: 1; /* Definimos una opacidad inicial */
+}
+
+#favActivities {
+    background: linear-gradient(to bottom, #f2f2f2, #ffffff);
+    padding: 20px;
+}
+
+#favActivities h2:hover {
+    color: #4285f4;
+    cursor: pointer;
+}
+
+#favActivities form div {
+    margin-bottom: 15px; /* Espacio entre los elementos del formulario */
+}
+
+#favActivities form label {
+    display: block;
+}
+
+#favActivities form input[type="text"],
+#favActivities form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#favActivities form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#favActivities form input[type="submit"]:hover {
+    color: #003995;
+    cursor: pointer;
+}
+
+#cardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: #4285f4;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    justify-content: center;
+}
+
+
+.button-style {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

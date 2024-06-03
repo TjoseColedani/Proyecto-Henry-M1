@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/PM1-TjoseColedani/styles/reset.css">
+    <link rel="stylesheet" href="/PM1-TjoseColedani/styles/styles.css">
+    <title>Mi Página Web</title>
+</head>
+<body>
+    <header>
+        <h1>Turi Coledani</h1>
+    </header>
+    <main>
+        <section class="about">
+            <h2>Acerca de Mi</h2>
+            <p>Soy Jose, me dicen "Turi", tengo 29 años, soy de salta capital pero actualmente vivo en cordoba!.
+                Tengo por objetivo convertirme en desarrollador web para conseguir un trabajo que me permita ganar experiencia
+                en este fascinante mundo y seguir estudiando mas para crecer mas y mas como desarrollador, especialmente en backend!.
+            </p>
+        </section>
+        <section>
+        <h2 class="misTecnologias">Mis Tecnologias Favoritas</h2>            
+            <article>
+                <ul>
+                    <li>
+                        <h3>HTML</h3>
+                        <img src="/PM1-TjoseColedani/assets/Image20240130124308.png" alt="html image">
+                    </li>
+                    <li>
+                        <h3>CSS</h3>
+                        <img src="/PM1-TjoseColedani/assets/Image20240130124310.png" alt="css image">
+                    </li>
+                    <li>
+                        <h3>JAVASCRIPT</h3>
+                        <img src="/PM1-TjoseColedani/assets/Image20240130124305.png" alt="javascript image">
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="favActivities">
+            <h2>Mis Actividades Favoritas</h2>
+            <form id="form">
+                <div>
+                    <label for="text">
+                        Titulo:
+                        <input type="text" id="activity-text" placeholder="Escribe aqui la actividad...">
+                    </label>
+                </div>
+                <div>
+                    <label for="description">
+                        Descripcion:
+                        <textarea name="description" id="activity-description"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <label for="imgUrl">
+                        Url de la imagen:
+                        <input type="imgUrl" id="activity-imgUrl" placeholder="https://google.com">
+                    </label>
+                </div>
+                <input type="submit" value="Enviar" id="add">
+            </form>
+        </section>
+    </main>
+
+    <div id="cardsContainer"></div>
+
+    <footer>
+        <p>Hecho por Turi!. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="/PM1-TjoseColedani/scripts/index.js"></script>
+</body>
+</html>
+
